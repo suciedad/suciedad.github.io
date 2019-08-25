@@ -6,9 +6,16 @@ body {
 
 .info {
   display: block;
-  transform: translate3d(-50%, -50%, 0);
+  position: absolute;
   left: 50%;
   top: 50%;
-  position: absolute;
+  font-family: 'Roboto Slab', sans-serif;
   font-size: 36px;
+  color: #03a9f4;
+  transform: translate3d(-50%, -50%, 0);
+  text-align: center;
+}
+
+.info:visited {
+  color: #03a9f4;
 }

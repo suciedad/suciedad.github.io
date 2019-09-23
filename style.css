@@ -16,6 +16,10 @@ body {
   text-align: center;
 }
 
+.mistake {
+  text-decoration: line-through;
+}
+
 .info:visited {
   color: #03a9f4;
 }
